@@ -20,7 +20,7 @@ The dataset in question today is the Federal Open Market Committee Historical Ma
 The publically available form of these historical materials are in downloadabe pdf form. 
 
 ## Data Processing
-To execute the Latent Dirichlet Allocation on the historical materials we need to go through several steps. Each steps is completed in the corresponding python script, python notebook or R script file.
+To execute the Latent Dirichlet Allocation on the historical materials we need to go through several steps. Each steps is completed in the corresponding python script, python notebook or R script file. [To have a look at the original scripts please have a look at my github repository.](https://github.com/haruka-takagi-datascience/textual_analysis)
 
 1. 01_LDAproj_pdfconvert.py: The purpose of this script is to take the FOMC_PDF_Historical_Materials_Links and turn the links into files of pdf's per column. For example, running this script will generate a 'green book' folder of pdf files.
 
