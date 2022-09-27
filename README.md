@@ -79,3 +79,6 @@ I have updated 03_LDAproj_cleantextfiles.R to drop the words listed below.
 - measure words (percentage, point, rate…)
 - drop words with a summed word frequency of less than 5
 - quantity words (million, hundred, thousands)
+
+## Execute Latent Dirichlet Allocation
+
