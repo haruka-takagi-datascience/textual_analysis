@@ -1,7 +1,5 @@
 # Latent Dirichlet Allocation on FOMC Historical Materials
 
-## Introduction
-
 In natural language processing, Latent Dirichlet Allocations (LDA) is a generative statistical model used for topic modelling. While LDA was originally invented in context of population genetics, it is applied in machine learning for topic discovery. Topic discovery is a problem in NLP where the goal is to discover topics in a collection of documents, and then automatically classify any individual document within the collection in terms of how relevant it is to each of the discovered topics. In this context, a topic is considered a set of terms, that when collected together they suggest a shared theme. 
 
 Here are some assumptions for LDA that we need to take into account.
@@ -17,8 +15,11 @@ The dataset in question today is the Federal Open Market Committee Historical Ma
 1. Greenbook: Current Economic & Financial Conditions
 2. Tealbook: Economic & Financial Conditions: Current Situation & Outlook + Monetary Policy: Strategies & Alternatives
 3. Beigebook: Summary of Commentary on Current Economic Conditions by Federal Reserve District
+4. Bluebook: Monetary Policy Alternatives
 
 The publically available form of these historical materials are in downloadabe pdf form. 
+
+## Data Processing
 To execute the Latent Dirichlet Allocations on the historical materials we need to go through several steps. Each steps is completed in the corresponding python script, python notebook or R script file.
 
 1. 01_LDAproj_pdfconvert.py: The purpose of this script is to take the FOMC_PDF_Historical_Materials_Links and turn the links into files of pdf's per column. For example, running this script will generate a 'green book' folder of pdf files.
