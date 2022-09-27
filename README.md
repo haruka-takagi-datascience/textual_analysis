@@ -38,5 +38,5 @@ To execute the Latent Dirichlet Allocations on the historical materials we need 
 
 8. 08_LDAproj_wordstats: The purpose of this script is produce graphs on the word frequency and give general statistics to understand our data set better. 
 
-
+## Data Exploration
 
