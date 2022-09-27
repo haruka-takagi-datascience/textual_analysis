@@ -81,4 +81,35 @@ I have updated 03_LDAproj_cleantextfiles.R to drop the words listed below.
 - quantity words (million, hundred, thousands)
 
 ## Execute Latent Dirichlet Allocation
+The script we will be examining is 09_LDAproj_LDAimplementation.ipynb.
+We will be using the gensim topic modelling package for the LDA model.
+
+Lets read in our dataset. 
+<img src="images/img_9.png">
+
+Then prepare the text for LDA analysis and construct a corpora.
+<img src="images/img_10.png">
+
+Then lets build and train our LDA model.
+<img src="images/img_11.png">
+
+Then lets visualize the results of our LDA model. 
+<img src="images/img_12.png">
+
+We can examine the intertopic distance mapping of our topics. I have decided on 4 topics as this number of topics had the least overlap between each other. 
+
+<img src="images/img_13.png">
+
+Below are the Top 30 Most Relevant Terms for Topics 1 to 4 for a lambda = 1 relevance metric.
+
+<img src="images/img_14.png">
+<img src="images/img_15.png">
+<img src="images/img_16.png">
+<img src="images/img_17.png">
+
+This concludes the textual analysis project! Thank you for taking a look and reading till the end!
+Please check out my other projects if you have the time!
+
+
+
 
