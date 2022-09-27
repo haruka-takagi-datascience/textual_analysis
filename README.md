@@ -46,18 +46,31 @@ Before we execute LDA, we would like to get an idea of the most frequent words i
 <img src="images/img_1.png">
 <img src="images/img_2.png">
 
+Some of the 10% most frequent words in the Greenbook in decreasing frequency order. 
+percent rate quarter year price increas month chang growth billion bank declin annual market expect period data first averag product real recent continu level u. project loan point industri remain dollar consum may foreign import adjust will net inflat term second export rise last sale note busi rose good current end sinc spend estim credit new larg fourth pace
+
 ### Bluebook
 <img src="images/img_3.png">
 <img src="images/img_4.png">
+
+Some of the 10% most frequent words in the Bluebook in decreasing frequency order. 
+rate growth market percent fund feder year reserv expect inflat period committe fomc altern term cid polici quarter bank rang point increas price averag month treasuri end may level credit monetari money aggreg staff interest adjust project yield declin chang recent econom debt note borrow will data basi continu deposit meet remain run like time secur week base balanc short annual current estim real loan forecast demand class
 
 ### Tealbook
 <img src="images/img_5.png">
 <img src="images/img_6.png">
 
+Some of the 10% most frequent words in the Tealbook in decreasing frequency order. 
+rate percent inflat quarter year feder fomc expect market committe polici project price term fund restrict releas increas secur public will tealbook econom purchas growth real continu altern bank treasuri chang remain reserv period month gdp level balanc previous pace point forecast note declin unemploy labor loan current rule estim end condit
+
 ### Beigebook
 <img src="images/img_7.png">
 <img src="images/img_8.png">
 
+Some of the 10% most frequent words in the Beigebook in decreasing frequency order. 
+report district sale increas year price continu activ contact demand remain manufactur expect percent new retail loan rate level construct industri product note market month strong last growth busi firm recent declin improv general real commerci slight home estat consum area inventori condit bank howev indic although servic slow sever also sector
 
+### Data Exploration Takeaways
+From these results I have compiled a list of word that we should drop from the dataset before we run the LDA.
 
 
