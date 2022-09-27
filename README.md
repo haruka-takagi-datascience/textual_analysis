@@ -24,7 +24,9 @@ To execute the Latent Dirichlet Allocations on the historical materials we need 
 
 1. 01_LDAproj_pdfconvert.py: The purpose of this script is to take the FOMC_PDF_Historical_Materials_Links and turn the links into files of pdf's per column. For example, running this script will generate a 'green book' folder of pdf files.
 
-2. 
+2. 02_LDAproj_textconvert.py: The purpose of this script is to take the FOMC pdf files and convert them to text files for easier access and pre-processing.
+
+3. 02.5
 
 
 
