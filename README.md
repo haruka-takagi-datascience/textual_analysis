@@ -45,32 +45,37 @@ Before we execute LDA, we would like to get an idea of the most frequent words i
 ### Greenbook
 <img src="images/img_1.png">
 <img src="images/img_2.png">
-
-Some of the 10% most frequent words in the Greenbook in decreasing frequency order. 
-percent rate quarter year price increas month chang growth billion bank declin annual market expect period data first averag product real recent continu level u. project loan point industri remain dollar consum may foreign import adjust will net inflat term second export rise last sale note busi rose good current end sinc spend estim credit new larg fourth pace
+percent rate year quarter price month increas chang billion bank n.a growth annual real market product u. declin averag dollar period industri net data expect consum first may export good import level project total recent busi continu adjust foreign loan sale point index current term indic trade remain gdp inflat feder unit per juli domest will credit invest last second estim season bond new rise
 
 ### Bluebook
 <img src="images/img_3.png">
 <img src="images/img_4.png">
 
 Some of the 10% most frequent words in the Bluebook in decreasing frequency order. 
-rate growth market percent fund feder year reserv expect inflat period committe fomc altern term cid polici quarter bank rang point increas price averag month treasuri end may level credit monetari money aggreg staff interest adjust project yield declin chang recent econom debt note borrow will data basi continu deposit meet remain run like time secur week base balanc short annual current estim real loan forecast demand class
+rate cid percent growth market fund year feder reserv altern period inflat month quarter term expect polici may committe bank fomc rang point level averag treasuri monetari price credit money adjust increas yield chang debt interest deposit annual aggreg end project run short june week recent dollar borrow declin econom data estim basi base secur time total will staff real alt continu juli meet remain jan current billion
 
 ### Tealbook
 <img src="images/img_5.png">
 <img src="images/img_6.png">
 
 Some of the 10% most frequent words in the Tealbook in decreasing frequency order. 
-rate percent inflat quarter year feder fomc expect market committe polici project price term fund restrict releas increas secur public will tealbook econom purchas growth real continu altern bank treasuri chang remain reserv period month gdp level balanc previous pace point forecast note declin unemploy labor loan current rule estim end condit
+rate percent inflat quarter feder tealbook year price fomc market expect polici project fund committe term secur restrict public increas releas real previous will purchas econom chang growth treasuri altern bank month continu gdp reserv remain period point unemploy current rule balanc forecast level billion pace loan asset labor note estim end staff declin may agenc first condit financi u. recent outlook averag indic effect control sourc annual run longer report lower mortgag
 
 ### Beigebook
 <img src="images/img_7.png">
 <img src="images/img_8.png">
 
-Some of the 10% most frequent words in the Beigebook in decreasing frequency order. 
-report district sale increas year price continu activ contact demand remain manufactur expect percent new retail loan rate level construct industri product note market month strong last growth busi firm recent declin improv general real commerci slight home estat consum area inventori condit bank howev indic although servic slow sever also sector
+report district sale increas year price continu activ contact demand manufactur remain expect retail new percent loan rate level construct industri product note market month strong busi last growth firm recent declin improv consum real general commerci estat slight home area condit inventori bank howev indic servic although sever slow also sector order higher respond good employ high ago one said relat rise
 
 ### Data Exploration Takeaways
 From these results I have compiled a list of word that we should drop from the dataset before we run the LDA.
-
-
+I have updated 03_LDAproj_cleantextfiles.R to drop the words listed below. 
+- months: oct, october, etc
+- words with symbols or punctuation in between them
+- time (months + quarter)
+- date
+- seasonality
+- locations
+- measure words (percentage, point, rate…)
+- drop words with a summed word frequency of less than 5
+- quantity words (million, hundred, thousands)
