@@ -26,7 +26,15 @@ To execute the Latent Dirichlet Allocations on the historical materials we need 
 
 2. 02_LDAproj_textconvert.py: The purpose of this script is to take the FOMC pdf files and convert them to text files for easier access and pre-processing.
 
-3. 02.5
+3. 02.5_LDAproj_removetables.py: The purpose of this script is to take the FOMC_Historical_Materials_textfiles and remove tables from the text files.
+
+4. 03_LDAproj_cleantextfiles.R: The purpose of this script is to take the FOMC text files and make them cleaner. Remove spaces over two character lengths long, remove numbers, punctuation, and new line characters. Output text files will not keep any formatting elements. 
+
+5. 04_LDAproj_samedatecombination.R: The purpose of this script is to combine text files that have the same date. And get rid of the first page in some text files. (trim function). Run just on tealbook, greenbook & greenbook_mini.
+
+6. 05_LDAproj_dfmcreation.R: The purpose of this script is to create a csv file of a dataframe with all texts and create a document frequency matrix. Preprocess file consists of combined Greenbook_mini, Greenbook & Tealbook + cleaned version of Beigebook and Bluebook. Manually copy files into preprocess file.
+
+7. 
 
 
 
