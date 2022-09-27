@@ -34,9 +34,9 @@ To execute the Latent Dirichlet Allocations on the historical materials we need 
 
 6. 06_LDAproj_dfmcreation.R: The purpose of this script is to create a csv file of a dataframe with all texts and create a document frequency matrix. Preprocess file consists of combined Greenbook_mini, Greenbook & Tealbook + cleaned version of Beigebook and Bluebook. Manually copy files into preprocess file.
 
-7. 
+7. 07_LDAproj_wordcloud: The purpose of this script is to create a word cloud for the FOMC historical documents.
 
-
+8. 08_LDAproj_wordstats: The purpose of this script is produce graphs on the word frequency and give general statistics to understand our data set better. 
 
 
 
