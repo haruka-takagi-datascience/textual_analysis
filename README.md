@@ -95,23 +95,23 @@ I have updated 03_LDAproj_cleantextfiles.R to drop the words listed below.
 The script we will be examining is 09_LDAproj_LDAimplementation.ipynb.
 We will be using the gensim topic modelling package for the LDA model.
 
-Lets read in our dataset. 
+Lets read in our dataset. <br />
 <img src="images/img_9.png">
 
-Then prepare the text for LDA analysis and construct a corpora.
+Then prepare the text for LDA analysis and construct a corpora. <br />
 <img src="images/img_10.png">
 
-Then lets build and train our LDA model.
+Then lets build and train our LDA model. <br />
 <img src="images/img_11.png">
 
-Then lets visualize the results of our LDA model. 
+Then lets visualize the results of our LDA model. <br />
 <img src="images/img_12.png">
 
-We can examine the intertopic distance mapping of our topics. I have decided on 4 topics as this number of topics had the least overlap between each other. 
+We can examine the intertopic distance mapping of our topics. I have decided on 4 topics as this number of topics had the least overlap between each other. <br />
 
 <img src="images/img_13.png">
 
-Below are the Top 30 Most Relevant Terms for Topics 1 to 4 for a lambda = 1 relevance metric.
+Below are the Top 30 Most Relevant Terms for Topics 1 to 4 for a lambda = 1 relevance metric. <br />
 
 <img src="images/img_14.png">
 <img src="images/img_15.png">
