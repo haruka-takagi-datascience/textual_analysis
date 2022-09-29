@@ -43,7 +43,7 @@ To execute the Latent Dirichlet Allocation on the historical materials we need t
 Before we execute LDA, we would like to get an idea of the most frequent words in the data first. This way we can remove some of the unneccesary words that slipped through the cracks in the cleaning procedure. 07_LDAproj_wordcloud.ipynb and 08_LDAproj_wordstats.ipynb produce word clouds and statistics on the most frequent words in the dataset. 
 
 ### Greenbook
-<img src="images/img_1.png" width="90%" height="90%">
+<img src="images/img_1.png" width="80%" height="80%">
 <img src="images/img_2.png">
 
 Some of the 10% most frequent words in the Greenbook in decreasing frequency order.
