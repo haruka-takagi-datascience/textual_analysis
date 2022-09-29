@@ -96,7 +96,7 @@ The script we will be examining is 09_LDAproj_LDAimplementation.ipynb.
 We will be using the gensim topic modelling package for the LDA model.
 
 Lets read in our dataset. <br />
-<img src="images/img_9.png"  width="80%" height="80%">
+<img src="images/img_9.png"  width="70%" height="70%">
 
 Then prepare the text for LDA analysis and construct a corpora. <br />
 <img src="images/img_10.png"  width="80%" height="80%">
