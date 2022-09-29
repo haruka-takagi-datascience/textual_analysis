@@ -43,36 +43,40 @@ To execute the Latent Dirichlet Allocation on the historical materials we need t
 Before we execute LDA, we would like to get an idea of the most frequent words in the data first. This way we can remove some of the unneccesary words that slipped through the cracks in the cleaning procedure. 07_LDAproj_wordcloud.ipynb and 08_LDAproj_wordstats.ipynb produce word clouds and statistics on the most frequent words in the dataset. 
 
 ### Greenbook
-<img src="images/img_1.png" width="80%" height="80%">
-<img src="images/img_2.png">
-
+<p align="center">
+  <img src="images/img_1.png" width="80%" height="80%">
+  <img src="images/img_2.png">
+</p>
 Some of the 10% most frequent words in the Greenbook in decreasing frequency order.
 
 
 percent rate year quarter price month increas chang billion bank n.a growth annual real market product u. declin averag dollar period industri net data expect consum first may export good import level project total recent busi continu adjust foreign loan sale point index current term indic trade remain gdp inflat feder unit per juli domest will credit invest last second estim season bond new rise
 
 ### Bluebook
-<img src="images/img_3.png" width="80%" height="80%">
-<img src="images/img_4.png">
-
+<p align="center">
+  <img src="images/img_3.png" width="80%" height="80%">
+  <img src="images/img_4.png">
+</p>
 Some of the 10% most frequent words in the Bluebook in decreasing frequency order. 
 
 
 rate cid percent growth market fund year feder reserv altern period inflat month quarter term expect polici may committe bank fomc rang point level averag treasuri monetari price credit money adjust increas yield chang debt interest deposit annual aggreg end project run short june week recent dollar borrow declin econom data estim basi base secur time total will staff real alt continu juli meet remain jan current billion
 
 ### Tealbook
-<img src="images/img_5.png" width="80%" height="80%">
-<img src="images/img_6.png">
-
+<p align="center">
+  <img src="images/img_5.png" width="80%" height="80%">
+  <img src="images/img_6.png">
+</p>
 Some of the 10% most frequent words in the Tealbook in decreasing frequency order. 
 
 
 rate percent inflat quarter feder tealbook year price fomc market expect polici project fund committe term secur restrict public increas releas real previous will purchas econom chang growth treasuri altern bank month continu gdp reserv remain period point unemploy current rule balanc forecast level billion pace loan asset labor note estim end staff declin may agenc first condit financi u. recent outlook averag indic effect control sourc annual run longer report lower mortgag
 
 ### Beigebook
-<img src="images/img_7.png" width="80%" height="80%">
-<img src="images/img_8.png">
-
+<p align="center">
+  <img src="images/img_7.png" width="80%" height="80%">
+  <img src="images/img_8.png">
+</p>
 Some of the 10% most frequent words in the Beigebook in decreasing frequency order.
 
 
@@ -96,28 +100,32 @@ The script we will be examining is 09_LDAproj_LDAimplementation.ipynb.
 We will be using the gensim topic modelling package for the LDA model.
 
 Lets read in our dataset. <br />
-<img src="images/img_9.png"  width="70%" height="70%">
-
+<p align="center">
+  <img src="images/img_9.png"  width="70%" height="70%">
+</p>
 Then prepare the text for LDA analysis and construct a corpora. <br />
-<img src="images/img_10.png"  width="80%" height="80%">
-
+<p align="center">
+  <img src="images/img_10.png"  width="80%" height="80%">
+</p>
 Then lets build and train our LDA model. <br />
-<img src="images/img_11.png"  width="80%" height="80%">
-
+<p align="center">
+  <img src="images/img_11.png"  width="80%" height="80%">
+</p>
 Then lets visualize the results of our LDA model. <br />
-<img src="images/img_12.png">
-
+<p align="center">
+  <img src="images/img_12.png">
+</p>
 We can examine the intertopic distance mapping of our topics. I have decided on 4 topics as this number of topics had the least overlap between each other. <br />
-
-<img src="images/img_13.png" width="60%" height="60%">
-
+<p align="center">
+  <img src="images/img_13.png" width="60%" height="60%">
+</p>
 Below are the Top 30 Most Relevant Terms for Topics 1 to 4 for a lambda = 1 relevance metric. <br />
-
-<img src="images/img_14.png"  width="60%" height="60%">
-<img src="images/img_15.png"  width="60%" height="60%">
-<img src="images/img_16.png"  width="60%" height="60%">
-<img src="images/img_17.png" width="60%" height="60%">
-
+<p align="center">
+  <img src="images/img_14.png"  width="60%" height="60%">
+  <img src="images/img_15.png"  width="60%" height="60%">
+  <img src="images/img_16.png"  width="60%" height="60%">
+  <img src="images/img_17.png" width="60%" height="60%">
+</p>
 This concludes the textual analysis project! Thank you for taking a look and reading till the end!
 Please check out my other projects if you have the time!
 
