@@ -98,6 +98,7 @@ I have updated 03_LDAproj_cleantextfiles.R to drop the words listed below.
 ## Execute Latent Dirichlet Allocation
 The script we will be examining is 09_LDAproj_LDAimplementation.ipynb.
 We will be using the gensim topic modelling package for the LDA model.
+We will also be using the Greenbook as our example in this project. But feel free to run the other LDA's for the other books as well.
 
 Lets read in our dataset. <br />
 <p align="center">
